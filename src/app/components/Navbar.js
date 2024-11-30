@@ -8,7 +8,7 @@ export default function Navbar() {
       </div>
       <ul className="flex gap-5 items-center font-poppins">
         <li>
-          <Link href="/">Beranda</Link>
+          <Link href="/">Home</Link>
         </li>
       </ul>
     </nav>
