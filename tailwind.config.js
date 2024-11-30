@@ -14,6 +14,8 @@ module.exports = {
       fontFamily: {
         parkinsans: ['Parkinsans'],
         outfit: ['Outfit'],
+        poppins: ['Poppins'],
+        reenie: ['Reenie Beanie'],
       }
     },
   },
