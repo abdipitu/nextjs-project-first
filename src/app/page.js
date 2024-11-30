@@ -50,7 +50,7 @@ export default function Home() {
           </Link>
         </div>
         <div className="h-44 w-96 border border-zinc-300 rounded-lg hover:border-zinc-600 p-5">
-        <h1 className="font-reenie text-2xl">Not Found</h1>
+        <h1 className="font-reenie text-2xl">404 | Not Found</h1>
         </div>
       </section>
     </div>
