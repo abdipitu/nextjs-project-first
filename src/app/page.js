@@ -32,7 +32,7 @@ export default function Home() {
           <p className="text-zinc-500">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
           </p>
-          <Link href="https://github.com/abdipitu">
+          <Link href="/movie">
             <button className="py-1.5 px-5 w-full border border-zinc-300 rounded-md text-sm">
               Show Website <i className="ri-arrow-right-up-line"></i>
             </button>
