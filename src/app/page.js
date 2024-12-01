@@ -3,12 +3,12 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div>
-      <section className="px-40">
+      <section className="px-5 md:px-40">
         <div className="w-full h-96 flex flex-col justify-center items-center">
-          <h1 className="font-medium text-5xl font-reenie">
+          <h1 className="font-medium  text-center md:text-start text-3xl md:text-5xl font-reenie">
             website untuk senang-senang belaka
           </h1>
-          <p className="font-lg hover:border-zinc-600 text-zinc-500">
+          <p className="font-lg text-sm md:text-base text-center hover:border-zinc-600 text-zinc-500">
             Dibuat dengan tujuan untuk belajar mengenai NextJS.
           </p>
           <div className="mt-5 space-x-3 font-medium">
@@ -26,8 +26,8 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="flex gap-3 justify-between items-center px-36">
-        <div className="h-44 w-96 border border-zinc-300 rounded-lg hover:border-zinc-600 p-5 flex flex-col justify-between">
+      <section className="flex flex-col md:flex-row gap-3 justify-between items-center px-5 md:px-36 mb-40">
+        <div className="h-44 w-80 md:w-96 border border-zinc-300 rounded-lg hover:border-zinc-600 p-5 flex flex-col justify-between">
           <h1 className="font-reenie text-2xl">Anime Website</h1>
           <p className="text-zinc-500">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
@@ -38,7 +38,7 @@ export default function Home() {
             </button>
           </Link>
         </div>
-        <div className="h-44 w-96 border border-zinc-300 rounded-lg hover:border-zinc-600 p-5 flex flex-col justify-between">
+        <div className="h-44 w-80 md:w-96 border border-zinc-300 rounded-lg hover:border-zinc-600 p-5 flex flex-col justify-between">
           <h1 className="font-reenie text-2xl">Gus Hakam Khariri</h1>
           <p className="text-zinc-500">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
@@ -49,7 +49,7 @@ export default function Home() {
             </button>
           </Link>
         </div>
-        <div className="h-44 w-96 border border-zinc-300 rounded-lg hover:border-zinc-600 p-5">
+        <div className="h-44 w-80 md:w-96 border border-zinc-300 rounded-lg hover:border-zinc-600 p-5">
         <h1 className="font-reenie text-2xl">404 | Not Found</h1>
         </div>
       </section>
